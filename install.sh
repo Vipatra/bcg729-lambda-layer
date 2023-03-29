@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt-get -y install gcc make cmake build-essential
+sudo apt-get -y install gcc make cmake build-essential zip
 
 git reset --hard
 rm -rf g729
