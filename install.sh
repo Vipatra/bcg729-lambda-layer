@@ -38,3 +38,6 @@ do
 done
 
 echo "Done!"
+
+cd executables
+zip -r ../package.zip *
