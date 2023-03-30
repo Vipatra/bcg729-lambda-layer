@@ -12,7 +12,10 @@ ENV LD_LIBRARY_PATH="/opt/package/lib:${LD_LIBRARY_PATH}"
 
 
 
-COPY data/test.wav /opt/package/data
+COPY data/ /opt/package/data
+
+
+RUN ls /opt/package/data
 
 RUN chmod +x /opt/package/data
 
