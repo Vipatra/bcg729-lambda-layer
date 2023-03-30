@@ -3,6 +3,7 @@
 set -e
 
 git reset --hard
+git clean -f
 
 docker build . -t build-python-3.8-cmake
 
