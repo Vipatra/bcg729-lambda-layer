@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 sudo apt update
 sudo apt-get -y install gcc make cmake build-essential zip
