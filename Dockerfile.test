@@ -21,7 +21,7 @@ RUN chmod +x /opt/package/data
 
 RUN encoderTest /opt/package/data/test.wav
 
-RUN ls /opt/package/data
+RUN ls /opt/package/data/test.G729
 
 
 
